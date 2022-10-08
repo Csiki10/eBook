@@ -1,0 +1,78 @@
+---------------------------------
+ÁLLTALÁNOS TUDDNIVALÓK
+---------------------------------
+	> Minen egyes dokumentumot amit tárolni szeretnél külön .txt fileban kell létrehozni, az adott dokumentum típusának megfelelő nevű mappában.
+	> A fájl elnevezése lehet bármi (pl.: sorszáma).
+	> A fájlban ne hagyj üres sorokat.
+---------------------------------
+A FÁJL FELÉPÍTÉSE ÁLTALÁNOSAN
+---------------------------------
+	> Annak megfelelően hogy milyen típusú dokumentumot akarsz feltölteni,add meg egymás alá helyes soorendben az adatait.
+
+---------------------------------
+3 TÍPUS VAN
+---------------------------------
+Könyv
+> kulcs
+> oldalszám
+> értékelés
+> tárhely
+> szerző
+> cím
+> szerplők
+
+Diak
+> kulcs
+> oldalszám
+> értékelés
+> tárhely
+> előadó
+> tananyag
+> dátum
+
+Saját
+> kulcs
+> oldalszám
+> tárhely
+> név
+
+---------------------------------
+PÉLDÁK
+---------------------------------
+> KÖNYV:
+1
+200
+8
+10
+Kosztolányi Dezső
+Édes Anna
+Anna,Vizy,Ficsor
+
+
+> DIA:
+2
+100
+4
+3
+Vajda István
+Differenciálegyenletek
+2021.03.12
+
+
+> SAJÁT:
+3
+23
+9
+Star Wars
+
+---------------------------------
+	HASZNOS
+---------------------------------
+A fájlok tartalmát a beolvasás előtt a debug mappában lévő, 3 adott típusú mappában tudod állítani.
+Csak a diak.dok, konyv.dok, és sajat.dok elnevezésű mappákból tudsz fájlokat feltölteni. 
+Ha újakat akarsz feltölteni, segítségképp az ATMENETI2 nevű mappában vannak ugyan olyan nevű mappák amik megleleőek a feltöltéshez.
+Újak feltöltése esetén csak azokat a mappákat hagyd simán a Debugban, amiből be akarsz olvasni, különben kivétel fog keletkezni. (A többit az átmenetibe át lehet addig rakni akár)
+Csatoltam egy képet, ez az általam megadott alap dokumentumok elhelyezkedése az alap feltöltés után, kulcs szerint rendezve.
+
+yt bemutató link: 
+https://youtu.be/LOLF9r5xeGM
